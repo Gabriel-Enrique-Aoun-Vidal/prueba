@@ -1,0 +1,51 @@
+:root{
+	--color-1-type:rgba(155,105,225,1.0);
+	--color-2-type:rgba(67,99,59,1.0);
+	--color-3-type:rgba(133,45,82,1.0);
+
+}
+
+	      
+.container{
+	background-color: var(--color-1-type);
+	width: 23%;
+	height: 19vh;
+	overflow: hidden;
+	vertical-align: center;
+	text-align: center;
+}
+.cardinfo{
+	background-color: var(--color-2-type);
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+
+}
+.cardPersonal{
+	margin: auto;
+	background-color: var(--color-3-type);
+	margin-top: 15%;
+	width: 20%;
+	height: 12vh;
+	overflow: hidden;
+	border-radius: 25px 25px;
+	transition: width 2s,height: 2s;
+}
+.cardImagen img {
+	width: 20%;
+	height:20%;
+	border-radius: 25px 25px;
+}
+.cardPersonal{
+	display: inline-block;
+	width: 5%;
+	text-align: center;
+	height: 5vh;
+	transition: width 3s;
+	overflow: hidden;
+}	
+.container:hover{
+	height: 95vh;
+	width: 100%;
+	background-color: var(--color-2-type);
+}
